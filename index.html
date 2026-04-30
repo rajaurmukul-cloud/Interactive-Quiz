@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Interactive Quiz</h1>
+    <p>Test your knowledge with this simple quiz</p>
+</header>
+
+<section class="quiz-container">
+    <h2 id="question">Question</h2>
+
+    <div id="options">
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+    </div>
+
+    <button id="nextBtn">Next</button>
+</section>
+
+<section id="result" class="hidden">
+    <h2>Your Result</h2>
+    <p id="scoreText"></p>
+    <p id="message"></p>
+    <button onclick="restartQuiz()">Restart Quiz</button>
+</section>
+
+<footer>
+    <p>© 2026 Mukul</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
